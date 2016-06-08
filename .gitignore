@@ -4,6 +4,11 @@ node_modules/*
 !node_modules/@okta
 node_modules/@okta/*
 !node_modules/@okta/i18n
+**/node_modules/@okta/**/*.*
+!**/node_modules/@okta/**/login*.properties
+!**/node_modules/@okta/**/login*.js
+!**/node_modules/@okta/**/country*.properties
+!**/node_modules/@okta/**/country*.js
 npm-debug.log
 test/SpecRunner.html
 target
